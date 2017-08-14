@@ -14,7 +14,7 @@ def countInv(nums):
 		y = countInv(right)
 		z = countSplitInv(left, right)
 
-	print "countInv: ", nums, ", x: ", x, ", y: ", y, " ,z: ", z
+	# print "countInv: ", nums, ", x: ", x, ", y: ", y, " ,z: ", z
 
 	return x+y+z
 	
@@ -40,7 +40,7 @@ file = open(sys.argv[1], 'r')
 for line in file:
 	numbers.append(int(line))
 
-print numbers
+# print numbers
 print countInv(numbers)
 
 
