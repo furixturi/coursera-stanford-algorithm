@@ -14,7 +14,7 @@ def countInv(nums):
 		y = countInv(right)
 		z = countSplitInv(left, right)
 
-	print "sortAndCount: ", nums, ", x: ", x, ", y: ", y, " ,z: ", z
+	print "countInv: ", nums, ", x: ", x, ", y: ", y, " ,z: ", z
 
 	return x+y+z
 	
