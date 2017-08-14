@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-i = 0
+# i = 0
 
 def karatsuba(x, y):
 	global i
@@ -59,4 +59,4 @@ x = input("First integer: ")
 y = input("Second integer: ")
 
 print karatsuba(x, y)
-print i
+# print i
